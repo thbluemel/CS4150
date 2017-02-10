@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "CS4130\Anagram.csproj", "{CEF74BC1-C3AD-4895-8F03-1D799A274775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceiling", "ConsoleApplication1\Ceiling.csproj", "{C6E36E3F-6388-407A-9050-40952ACDE9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyQuest", "GalaxyQuest\GalaxyQuest.csproj", "{1AE81BCD-B9DB-4124-833F-F89ABFB97642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autoSink", "autoSink\autoSink.csproj", "{38669C3A-B3A1-44FE-B100-38D5D9646211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF74BC1-C3AD-4895-8F03-1D799A274775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF74BC1-C3AD-4895-8F03-1D799A274775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF74BC1-C3AD-4895-8F03-1D799A274775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF74BC1-C3AD-4895-8F03-1D799A274775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E36E3F-6388-407A-9050-40952ACDE9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E36E3F-6388-407A-9050-40952ACDE9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E36E3F-6388-407A-9050-40952ACDE9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E36E3F-6388-407A-9050-40952ACDE9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE81BCD-B9DB-4124-833F-F89ABFB97642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE81BCD-B9DB-4124-833F-F89ABFB97642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE81BCD-B9DB-4124-833F-F89ABFB97642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE81BCD-B9DB-4124-833F-F89ABFB97642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38669C3A-B3A1-44FE-B100-38D5D9646211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38669C3A-B3A1-44FE-B100-38D5D9646211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38669C3A-B3A1-44FE-B100-38D5D9646211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38669C3A-B3A1-44FE-B100-38D5D9646211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
