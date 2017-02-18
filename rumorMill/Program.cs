@@ -43,19 +43,16 @@ namespace rumorMill {
     }
 
     public List<Student> breadthFirstSearch(Student start) {
-      List<Student> notHeard = new List<Student>();
-      List<Student> heard = new List<Student>();
+      List<Student> rumorList = new List<Student>();
       foreach(Student s in students.Values) {
         s.heardIt = false;
-        notHeard.Add(s);
       }
-      notHeard.Sort();
       Queue<Student> gossips = new Queue<Student> ();
       gossips.Enqueue(start);
       while (gossips.Count > 0) {
         Student g = gossips.Dequeue();
-        heard.Add(g);
-        notHeard.Remove(g);
+        rumorList.Add(g);
+        g.heardIt = true;
         g.friends.Sort();
         foreach (Student f in g.friends) {
           if (f.heardIt == false) {
@@ -64,10 +61,14 @@ namespace rumorMill {
           }
         }
       }
-      foreach (Student s in notHeard) {
-        heard.Add(s);
+      foreach (Student s in students.Values)
+      {
+        if (!s.heardIt)
+        {
+          rumorList.Add(s);
+        }
       }
-      return heard;
+      return rumorList;
     }
   }
 
